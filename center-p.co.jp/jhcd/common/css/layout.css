@@ -1,0 +1,506 @@
+@charset "utf-8";
+body {
+    /*ok*/
+    background-repeat: no-repeat;
+    background-position: right top, center 120px;
+    background-image: url(../images/bg_logo.png), url(../images/bg_img.png);
+    background-attachment: fixed;
+    background-size: auto auto, cover;
+    text-align: justify;
+    -webkit-text-size-adjust: 100%;
+}
+
+div {
+    overflow: hidden;
+}
+
+
+/*------------------------------------- 
+　　ヘッダー
+------------------------------------- */
+
+#haeder {
+    /*ok*/
+    width: 1024px;
+    height: 120px;
+}
+
+#haeder img {
+    /*ok*/
+    margin-top: 13px;
+    margin-left: 33px;
+}
+
+
+/*------------------------------------- 
+　　コンテナ
+------------------------------------- */
+
+#container {
+    /*ok*/
+    overflow: hidden;
+    border-spacing: 50px 0;
+    width: 1024px;
+}
+
+
+/*------------------------------------- 
+　　サイドバー
+------------------------------------- */
+
+#side {
+    /*	float: left;*/
+    width: 250px;
+    line-height: normal;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: right top, center 120px;
+    background-image: url(../images/bg_logo.png), url(../images/bg_img.png);
+    background-attachment: fixed;
+    background-size: auto auto, cover;
+}
+
+#side :hover {
+    text-decoration: none;
+}
+
+#side ul {
+    /*編集用 background-color: #1183c6;*/
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 104, 201, 0.7), rgba(0, 104, 201, 0.7), rgba(0, 104, 201, 0.7), rgba(0, 104, 201, 0.5), rgba(255, 255, 255, 0));
+    padding-bottom: 120px;
+}
+
+#side li {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-bottom: 1px solid #FFFFFF;
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 1.00);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.30);
+    font-size: 1.3em;
+    background-image: url(../images/bg_nav_arrow.png);
+    background-position: 210px center;
+    line-height: 1.1em;
+}
+
+#side ul li span {
+    color: #b9e1f7;
+    font-size: 0.7em;
+    text-shadow: 0px 0px 0px;
+}
+
+#side li:hover {
+    background-color: rgba(251, 203, 0, 0.70);
+}
+
+#side #office {
+    background-color: rgba(0, 0, 0, 0.50);
+    font-size: 0.85em;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+#side #office .text_jimukyoku {
+    background-color: rgba(255, 255, 255, 1.00);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    display: block;
+    width: 3.5em;
+    text-align: center;
+    color: rgba(0, 0, 0, 1.00);
+}
+
+#side #office a {
+    color: rgba(251, 203, 0, 1.00);
+}
+
+#side #office a:hover {
+    text-decoration: underline;
+}
+
+
+/*------------------------------------- 
+　　コンテンツ
+------------------------------------- */
+
+#contents {
+    margin-top: 30px;
+    width: 750px;
+    padding-bottom: 50px;
+    float: right;
+}
+
+
+/*------------------------------------- 
+　　フッタ
+------------------------------------- */
+
+#footer {
+    padding: 10px;
+    font-size: 0.7em;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 1.00);
+    color: rgba(255, 255, 255, 1.00);
+}
+
+
+/*------------------------------------- 
+　　画像
+------------------------------------- */
+
+.imgLeft {
+    float: left;
+    margin-right: 20px;
+}
+
+
+/*------------------------------------- 
+　　フォント
+------------------------------------- */
+
+h1 {}
+
+h2 {
+    background: linear-gradient(90deg, rgba(0, 104, 201, 0.7), rgba(0, 104, 201, 0.7), rgba(0, 104, 201, 0.7), rgba(0, 104, 201, 0.5), rgba(255, 255, 255, 0));
+    margin-bottom: 30px;
+    color: #FFFFFF;
+    font-size: 2em;
+    line-height: 1em;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-weight: normal;
+    border-left: 10px solid rgba(251, 203, 0, 1.00);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.30);
+}
+
+h3 {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 1em;
+    padding-right: 8px;
+    padding-left: 15px;
+    border-width: 0 0 0 10px;
+    border-color: #38686A #38686A #38686A #FBCB00;
+    border-style: solid;
+    color: #5B5B5B;
+    font-size: 1.3em;
+    font-weight: bold;
+    background: linear-gradient(90deg, rgba(255, 245, 205, 1.00), rgba(255, 245, 205, 0.00));
+    padding-top: 5px;
+    padding-bottom: 2px;
+}
+
+.text_indent {
+    text-indent: 1em;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.text_min {
+    font-size: 0.8em;
+}
+
+.text_1_3em {
+    font-size: 1.3em;
+}
+
+.text_bold {
+    font-weight: bold;
+}
+
+.font_day {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.font_red {
+    font-weight: bold;
+    color: #C00;
+}
+
+
+/*------------------------------------- 
+　　ボックス
+------------------------------------- */
+
+#contents div {
+    margin-bottom: 80px;
+    background-color: rgba(255, 255, 255, 0.70);
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+#contents div div {
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#contents div#box_h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.0);
+    padding: 0px;
+}
+
+#contents .box_office {
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(17, 131, 198, 1.00);
+    width: 27em;
+    background-color: rgba(255, 255, 255, 1.00);
+}
+
+#contents .box_office h4 {
+    border-bottom-style: solid;
+    font-size: 1em;
+    color: rgba(17, 131, 198, 1.00);
+    margin-bottom: 10px;
+}
+
+
+/*------------------------------------- 
+　　テーブル
+------------------------------------- */
+
+table {
+    border-top: 1px solid #7D7D7D;
+    border-right: 1px solid #7D7D7D;
+}
+
+table th {
+    border-bottom: 1px solid #7D7D7D;
+    background-color: #DFDFDF;
+    vertical-align: top;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    border-left: 1px solid #7D7D7D;
+    font-weight: normal;
+    text-align: center;
+}
+
+table td {
+    border-bottom: 1px solid #7D7D7D;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.5em;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    background-color: rgba(255, 255, 255, 1.00);
+    border-left: 1px solid #7D7D7D;
+}
+
+
+/*------------------------------------- 
+　　リスト
+------------------------------------- */
+
+ul.list_disc {
+    margin-left: 2em;
+}
+
+.list_disc li {
+    list-style-type: disc;
+    margin-bottom: 0.5em;
+}
+
+ul.list_kome {
+    margin-left: 2em;
+    text-indent: -1em;
+}
+
+.list_kome li {
+    list-style-type: none;
+    margin-bottom: 0.5em;
+}
+
+ol.list_num {
+    margin-left: 2em;
+}
+
+.list_num li {
+    margin-bottom: 0.5em;
+    list-style-type: decimal;
+}
+
+.cate_table dl {}
+
+.cate_table dt {
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #38686A;
+}
+
+.cate_table dd {
+    margin-left: 20px;
+}
+
+.cate_table dd span {
+    background-color: #F0EEE7;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.dl_ind2 {}
+
+.dl_ind2 dt {
+    width: 3em;
+    float: left;
+    text-align: right;
+}
+
+.dl_ind2 dd {
+    margin-left: 3.5em;
+}
+
+
+/*------------------------------------- 
+　　ボタン
+------------------------------------- */
+
+#side .btn1 {
+    /*真ん中に一つ置く場合*/
+    color: #FFFFFF;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    /* 角丸 */
+    -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;
+    /* Firefox用 */
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+#contents .btn {
+    /*pに設定　中にa*/
+    display: inline-block;
+    background-color: #fff;
+}
+
+#contents .btn>a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+#contents .btn>a:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=60);
+}
+
+#contents .btn1 {
+    /*真ん中に一つ置く場合*/
+    color: #FFFFFF;
+    font-size: 1em;
+    line-height: 1.3em;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.btn1:hover {
+    opacity: 0.4;
+    filter: alpha(opacity=60);
+}
+
+#contents .btn2 {
+    /*2個並べる場合*/
+    color: #FFFFFF;
+    font-size: 1em;
+    line-height: 1em;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    /* 角丸 */
+    -webkit-border-radius: 10px;
+    /* Safari,Google Chrome用 */
+    -moz-border-radius: 10px;
+    /* Firefox用 */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.btn2:hover {
+    opacity: 0.4;
+}
+
+#contents .btn_icon_pdf {
+    background-image: url(../images/icon_1r_32.png);
+    background-repeat: no-repeat;
+    background-position: right 20px bottom 10px;
+}
+
+.btn_green {
+    /*ボタンの色*/
+    background-color: #00A098;
+}
+
+.btn_blue {
+    /*ボタンの色*/
+    background: #1183C6;
+}
+
+.btn_purple {
+    /*ボタンの色*/
+    background: #9346E5;
+}
+
+
+/*------------------------------------- 
+　　flex
+------------------------------------- */
+
+.flex2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex2>* {
+    width: calc((100% - 30px)/2);
+}
